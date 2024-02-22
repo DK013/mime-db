@@ -18,7 +18,7 @@ It aggregates data from the following sources:
 ## Installation
 
 ```bash
-npm install [mime-db](https://github.com/DK013/mime-db)
+npm install https://github.com/DK013/mime-db
 ```
 
 ### Database Download
