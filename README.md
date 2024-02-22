@@ -29,7 +29,8 @@ replace `master` with [a release tag](https://github.com/jshttp/mime-db/tags)
 as the JSON format may change in the future.
 
 ```
-https://cdn.jsdelivr.net/gh/jshttp/mime-db@master/db.json
+https://cdn.jsdelivr.net/gh/dk013/mime-db@master/db.json
+https://cdn.jsdelivr.net/gh/dk013/mime-db@master/db-ext.json
 ```
 
 ## Usage
