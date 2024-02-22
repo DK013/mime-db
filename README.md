@@ -48,8 +48,7 @@ var type = db.extension['js'];
 ## ES6 Usage
 
 ```js
-import db from "mime-db";
-import { extension } from "mime-db";
+import db, { extension } from "mime-db";
 
 // grab data on .js files
 var data = db['application/javascript'];
