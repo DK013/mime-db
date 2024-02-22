@@ -33,7 +33,7 @@ https://cdn.jsdelivr.net/gh/dk013/mime-db@master/db.json
 https://cdn.jsdelivr.net/gh/dk013/mime-db@master/db-ext.json
 ```
 
-## Usage
+## CommonJS Usage
 
 ```js
 var db = require('mime-db')
@@ -43,6 +43,19 @@ var data = db['application/javascript'];
 
 // grab mime types for extension
 var type = db.extension['js'];
+```
+
+## ES6 Usage
+
+```js
+import db from "mime-db";
+import { extension } from "mime-db";
+
+// grab data on .js files
+var data = db['application/javascript'];
+
+// grab mime types for extension
+var type = extension['js'];
 ```
 
 ## Data Structure
